@@ -1,1 +1,3 @@
-https://efrosik.github.io/rsschool-cv/cv
+
+https://efrosik.github.io/rsschool-cv/
+

@@ -1,0 +1,33 @@
+h1 {text-align: center;
+    color: rgba(41, 28, 5, 0.952);
+    
+
+}
+.header{ border: thin solid black ;
+    background-color: burlywood;
+    width: device-width;
+ }
+ img{
+     float: right;
+     margin: 0px 0px 7px 7px;
+     border-left: thin solid black;
+     border-bottom: thin solid black;
+  }
+  .about-me{
+      text-indent: 15px;
+      margin-left: 8px;
+      text-align: justify;
+      line-height: 25px;
+    }
+ 
+    h2  {margin-left: 38px;
+    color: rgba(41, 28, 5, 0.952);
+}
+
+    ul h2{ margin-left: 0px;
+    color: rgba(41, 28, 5, 0.952);
+}
+li{
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
