@@ -1,33 +1,101 @@
-h1 {text-align: center;
-    color: rgba(41, 28, 5, 0.952);
-    
-
-}
-.header{ border: thin solid black ;
-    background-color: burlywood;
+*{box-sizing:border-box}
+body { 
+    background-color: rgb(228, 230, 163) ;/*ТЕЛО*/
     width: device-width;
+    font-size: 14pt;
  }
- img{
-     float: right;
-     margin: 0px 0px 7px 7px;
-     border-left: thin solid black;
-     border-bottom: thin solid black;
-  }
-  .about-me{
-      text-indent: 15px;
-      margin-left: 8px;
-      text-align: justify;
-      line-height: 25px;
-    }
- 
-    h2  {margin-left: 38px;
-    color: rgba(41, 28, 5, 0.952);
+
+
+header{background-color: rgb(219, 191, 113); /*Поле с фоткой. контейнер*/
+    display: flex;
+    justify-content: flex-start;
+    width: 400px; 
 }
 
-    ul h2{ margin-left: 0px;
-    color: rgba(41, 28, 5, 0.952);
+.avatar{
+    float: right;
+    border:thin solid black; /*расположение фотографии-аватарки*/
+ }
+
+ .contener{
+    display: flex;   /*ДИВ КОНТРЕЙНЕР В ГОЛОВЕ*/
+    flex-direction: column;
+    align-content: space-between;
+}
+.telephone {margin-top: 20px;            /*ТЕЛЕФОН В ГОЛОВЕ*/
+    margin-left: 10px;
+}
+
+.viber{
+    margin-left: 55px;
+}
+.location{
+    text-decoration: underline;    /*ГЕОЛОКАЦИЯ В ГОЛОВЕ*/
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+h1 {align-self: flex-start; /*заголовой имя-фамилия*/
+    margin: 0;
+    font-size: 16pt;  
+}
+.about-me{
+    text-indent: 15px; /*ТЕКСТ ОБО МНЕ*/
+    margin: 0 8px;
+    text-align: justify;
+    line-height: 25px;
+    width: 75%;
+  }
+
+ nav{
+    position: fixed; /*НАВИГАЦИЯ СПРАВА*/
+    right: 0;
+    top: 10px;
+    width: 25%;
+    color: rgba(41, 28, 5, 0.952);}
+
+ h2  {
+    color: rgba(41, 28, 5, 0.952);          /* ЗАГОЛВОЕ ОБРАЗОВАНИЕ КОД И ПРОЧЕЕ*/
+    text-decoration: underline;
+    margin-left: 30px;
+}
+  
+h3 {color: rgba(41, 28, 5, 0.952); /* ЗАГОЛОВОК СИЛЬНЫЕ СТОРОНЫ*/
+    padding-left: 30px;
 }
 li{
-    margin-bottom: 15px;
+    margin-bottom: 15px;             /* ОТСУПЫ МАРКИРОВАННОГО СПИСКА*/
     margin-left: 15px;
 }
+
+.predel {
+    width: 70%;}             /*БГУ СЖАЛОСЬ РАДИ НАВИГАЦИИ*/
+
+.otstyp{ margin-left: 40px;    /*ОСТУП ЗАГОЛОВКА НАВИГАЦИИ*/
+
+    }
+
+footer {display: flex;
+    background-color: rgb(219, 191, 113);
+    flex-direction: row;
+    position: relative;
+    width: device-width;
+    
+}
+
+
+.contener2 {
+    flex: 2;
+}
+
+span{position:absolute;
+    bottom: 20px;
+    right: 50%;
+
+}
+
+
+
+  
+
+    
